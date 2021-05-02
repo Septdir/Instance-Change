@@ -22,6 +22,18 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
+				<field name="instances" type="subform"
+					   label="MOD_INSTANCE_CHANGE_PARAMS_INSTANCES"
+					   multiple="true"
+					   required="true">
+					<form>
+						<field name="title" label="MOD_INSTANCE_CHANGE_PARAMS_INSTANCES_TITLE"
+							   required="true"/>
+						<field name="admin_url" label="MOD_INSTANCE_CHANGE_PARAMS_INSTANCES_ADMIN_URL"
+							   class="input-xxlarge"
+							   required="true"/>
+					</form>
+				</field>
 			</fieldset>
 			<fieldset name="advanced">
 				<field name="layout" type="modulelayout"

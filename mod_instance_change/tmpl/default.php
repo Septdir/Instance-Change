@@ -10,3 +10,14 @@
 
 defined('_JEXEC') or die;
 
+?>
+<div class="pull-right">
+	<div class="btn-group">
+		<?php foreach ($links as $link): ?>
+			<a class="btn btn-small <?php if ($link['active']) echo 'btn-success' ?>"
+			   href="<?php echo $link['href']; ?>" target="_blank">
+				<?php echo $link['title']; ?>
+			</a>
+		<?php endforeach; ?>
+	</div>
+</div>
