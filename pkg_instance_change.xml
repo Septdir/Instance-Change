@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="package" method="upgrade">
+	<name>PKG_INSTANCE_CHANGE</name>
+	<packagename>instance_change</packagename>
+	<author>Septdir Workshop</author>
+	<creationDate>May 2021</creationDate>
+	<copyright>Copyright (c) 2018 - 2021 Septdir Workshop. All rights reserved.</copyright>
+	<license>https://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>development@septdir.com</authorEmail>
+	<authorUrl>https://www.septdir.com/</authorUrl>
+	<version>0.0.1-dev</version>
+	<description>PKG_INSTANCE_CHANGE_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.pkg_instance_change.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.pkg_instance_change.sys.ini</language>
+	</languages>
+	<files>
+		<folder type="module" client="administrator" id="mod_instance_change">mod_instance_change</folder>
+	</files>
+</extension>
